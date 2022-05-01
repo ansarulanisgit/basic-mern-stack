@@ -1,0 +1,13 @@
+.users{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.users div{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
